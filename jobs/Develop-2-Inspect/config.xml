@@ -26,7 +26,7 @@
       <includeFailedBuilds>true</includeFailedBuilds>
     </hudson.tasks.test.AggregatedTestResultPublisher>
     <hudson.tasks.BuildTrigger>
-      <childProjects>Develop-3-Deploy</childProjects>
+      <childProjects>Develop-3-Configuration</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
