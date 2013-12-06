@@ -19,9 +19,6 @@
     <permission>hudson.model.Computer.Disconnect:goruha</permission>
     <permission>hudson.model.Hudson.Administer:goruha</permission>
     <permission>hudson.model.Hudson.Administer:maximmi</permission>
-    <permission>hudson.model.Hudson.Administer:sciencescape</permission>
-    <permission>hudson.model.Hudson.Administer:sergeyjsg</permission>
-    <permission>hudson.model.Hudson.Administer:travismccauley</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:goruha</permission>
     <permission>hudson.model.Hudson.Read:goruha</permission>
     <permission>hudson.model.Hudson.RunScripts:goruha</permission>
