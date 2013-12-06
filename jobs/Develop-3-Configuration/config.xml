@@ -20,7 +20,7 @@
   <customWorkspace>develop</customWorkspace>
   <builders>
     <hudson.tasks.Shell>
-      <command>vagrant up -e dev --provider aws --no-provision
+      <command>vagrant up -e dev --provider aws
 vagrant provision -e dev</command>
     </hudson.tasks.Shell>
   </builders>
