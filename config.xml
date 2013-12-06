@@ -124,6 +124,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Develop-3-Configuration</string>
         <string>Develop-3-Deploy</string>
       </jobNames>
       <jobFilters/>
