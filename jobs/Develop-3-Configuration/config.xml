@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Inspect code quality</description>
+  <description>Up instances</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.8">
@@ -17,7 +17,12 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <customWorkspace>develop</customWorkspace>
-  <builders/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>vagrant up -e dev --provider aws --no-provision
+vagrant provision -e dev</command>
+    </hudson.tasks.Shell>
+  </builders>
   <publishers>
     <hudson.plugins.chucknorris.CordellWalkerRecorder plugin="chucknorris@0.5">
       <factGenerator/>
