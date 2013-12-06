@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.model.JenkinsLocationConfiguration>
+  <adminAddress>jenkins-no-reply@sciencescape.org</adminAddress>
+  <jenkinsUrl>http://ci.sciencescape.org:8001/</jenkinsUrl>
+</jenkins.model.JenkinsLocationConfiguration>
