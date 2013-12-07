@@ -18,11 +18,6 @@
   <concurrentBuild>false</concurrentBuild>
   <customWorkspace>develop</customWorkspace>
   <builders>
-    <hudson.plugins.phing.PhingBuilder plugin="phing@0.13.1">
-      <targets>create</targets>
-      <properties>deploy_to=develop</properties>
-      <useModuleRoot>true</useModuleRoot>
-    </hudson.plugins.phing.PhingBuilder>
     <hudson.tasks.Shell>
       <command>cap -S instance=develop deploy;</command>
     </hudson.tasks.Shell>
